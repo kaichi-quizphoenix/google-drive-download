@@ -16,7 +16,7 @@ jobs:
         uses: playeveryware/action-google-drive-download@v1
         with:
           token: ${{ steps.google-access-token.outputs.token }}
-          file-id: 1wpafHx0xhiPPGnwjOI3xpw_XchLpn-OG
+          file-id: 107BAeO9bGb0MqGgxQpxIul_rdUHFkQIO
           path: test.bin
 
       - name: Show file information
